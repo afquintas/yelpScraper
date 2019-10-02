@@ -4,11 +4,9 @@ import random
 import csv
 import re
 import time
-import sys
 from lxml.html import fromstring
 import requests
 from itertools import cycle
-import traceback
 
 user_agents = [
     'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.11',
